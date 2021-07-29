@@ -9,20 +9,22 @@
 
 .layout {
   margin: 0;
-  padding: 1rem;
+  padding: 0.5rem;
   width: 100%;
   max-width: 900px;
   border-radius: 0;
   overflow: hidden;
   filter: drop-shadow(0 0 1rem #00000033);
   background-image: linear-gradient(120deg, #bdd, #eff) !important;
-  transition: margin 250ms;
+  transition: margin 250ms, padding 250ms;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .layout {
     margin: 2rem;
+    padding: 1rem;
     border-radius: 0.5rem;
+    width: calc(100% - 4rem);
   }
 }
 
