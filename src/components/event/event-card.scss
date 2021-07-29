@@ -2,6 +2,7 @@
   padding: 0rem !important;
   line-height: 1.75 !important;
   border-radius: 0.5rem !important;
+  transition: padding 250ms;
 }
 
 .where-and-when {
@@ -13,7 +14,7 @@
   flex: 1;
 }
 
-@media (min-width: 792px) {
+@media (min-width: 800px) {
   .where-and-when {
     flex-direction: row;
   }

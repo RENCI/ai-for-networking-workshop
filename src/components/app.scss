@@ -16,7 +16,7 @@
   overflow: hidden;
   filter: drop-shadow(0 0 1rem #00000033);
   background-image: linear-gradient(120deg, #bdd, #eff) !important;
-  transition: margin 250ms, padding 250ms;
+  transition: margin 250ms, padding 250ms, width 250ms;
 }
 
 @media (min-width: 800px) {
