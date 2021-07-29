@@ -7,25 +7,27 @@
   background: linear-gradient(120deg, var(--color-bg), var(--color-renci));
 }
 
-.title {
-  font-weight: 100;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.layout {
+  margin: 0;
+  padding: 1rem;
+  max-width: 800px;
+  border-radius: 0;
+  overflow: hidden;
+  filter: drop-shadow(0 0 1rem #00000033);
+  background-image: linear-gradient(120deg, #bdd, #eff) !important;
+  transition: margin 250ms;
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  33% {
-    transform: rotate(65deg);
-  }
-  100% {
-    transform: rotate(60deg);
+@media (min-width: 768px) {
+  .layout {
+    margin: 2rem;
+    border-radius: 0.5rem;
   }
 }
 
-.react-logo {
-  animation: spin infinite 1000ms ease-out;
+.footer {
+  background-color: transparent !important;
+  color: var(--color-unc-white) !important;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
 }

@@ -16,6 +16,7 @@
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^5.2.6",
     "html-webpack-plugin": "^5.3.2",
+    "markdown-to-react-loader": "^1.2.0",
     "mini-css-extract-plugin": "^1.6.1",
     "postcss": "^8.3.5",
     "postcss-loader": "^6.1.0",
@@ -26,6 +27,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "antd": "^4.16.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "sass": "^1.35.1",
