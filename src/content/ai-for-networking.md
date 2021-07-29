@@ -3,7 +3,7 @@ title: Workshop on Data for AI in Network Systems
 date: October 20-21, 2021 (tentative)
 location: Virtual, via <a href="https://renci.zoom.us/tbd" rel="noopener noreferrer">Zoom</a>
 agendaURL: https://docs.google.com/document/d/e/2PACX-1vTTx-gGK2eve7MEI3dwJANjmYZCcwg0Zu6JORNXhUxALLWkwJlNYiQyMyOQadDOCIAfys14MStfFyfZ/pub?embedded=true
-cfpFormURL: https://docs.google.com/forms/d/e/1FAIpQLSdPKs4ODXKHpQPPinER8ZOk3aMWE0NnX8L4EQwBNRv2Kssbpg/viewform?embedded=true
+whitepapersFormURL: https://docs.google.com/forms/d/e/1FAIpQLSdPKs4ODXKHpQPPinER8ZOk3aMWE0NnX8L4EQwBNRv2Kssbpg/viewform?embedded=true
 ---
 ## Executive Summary
 

@@ -1,3 +1,3 @@
 export * from './agenda'
-export * from './cfp'
+export * from './whitepapers'
 export * from './summary'

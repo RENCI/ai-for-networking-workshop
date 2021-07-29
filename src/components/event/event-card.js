@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import './event-card.scss'
-import { SummaryTab, AgendaTab, CallForProposalsTab } from './tabs'
+import { SummaryTab, AgendaTab, CallForWhitepapersTab } from './tabs'
 
 const { Header, Content, Footer, Sider } = Layout
 
@@ -12,9 +12,9 @@ export const EventCard = ({ event, markdown }) => {
   const [currentTab, setCurrentTab] = useState(0)
 
   const tabs = useMemo(() => [
-    { title: 'Event Summary',      content: <SummaryTab event={ event } markdown={ markdown } />, },
-    { title: `Call for Proposals`, content: <CallForProposalsTab url={ event.cfpFormURL } /> },
-    { title: `Agenda`,             content: <AgendaTab url={ event.agendaURL } /> },
+    { title: 'Event Summary',        content: <SummaryTab event={ event } markdown={ markdown } />, },
+    { title: `Call for Whitepapers`, content: <CallForWhitepapersTab url={ event.whitepapersFormURL } /> },
+    { title: `Agenda`,               content: <AgendaTab url={ event.agendaURL } /> },
   ], [])
   const tabList = useMemo(() => Object.keys(tabs).map(key => tabs[key].content ? ({ key, tab: tabs[key].title }) : null).filter(tab => tab !== null), [tabs])
   const tabContents = useMemo(() => Object.keys(tabs).reduce((obj, key) => tabs[key].content ? ({ ...obj, [key]: tabs[key].content }) : obj, {}), [tabs])
