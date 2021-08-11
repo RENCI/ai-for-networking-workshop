@@ -29,8 +29,19 @@
 }
 
 .footer {
+  padding: 0 !important;
+  width: 100%;
+  max-width: 900px;
   background-color: transparent !important;
   color: var(--color-unc-white) !important;
   letter-spacing: 1px;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  .github-icon {
+    filter: opacity(0.5);
+  }
+  .github-icon:hover {
+    filter: opacity(1.0);
+  }
 }
