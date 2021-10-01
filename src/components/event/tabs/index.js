@@ -1,3 +1,4 @@
 export * from './agenda'
-export * from './whitepapers'
+export * from './registration'
 export * from './summary'
+export * from './whitepapers'

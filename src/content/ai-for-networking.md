@@ -4,6 +4,7 @@ date: October 20-21, 2021
 location: Virtual, via <a href="https://renci.zoom.us/tbd" rel="noopener noreferrer">Zoom</a>
 agendaURL: https://docs.google.com/document/d/10SsIFO25w5tYt7G5eBAHhuYwhP3kcfNorjW-pYRJ4gg/preview
 whitepapersFormURL: https://docs.google.com/forms/d/e/1FAIpQLSdPKs4ODXKHpQPPinER8ZOk3aMWE0NnX8L4EQwBNRv2Kssbpg/viewform?embedded=true
+registrationURL: https://docs.google.com/forms/d/e/1FAIpQLSc06StXTkK-iP92CnohDkmt3kbiCm6puyZouT_mzC4dpqOIfg/viewform?usp=send_form
 ---
 ## Executive Summary
 

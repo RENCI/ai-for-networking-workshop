@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import './event-card.scss'
-import { SummaryTab, AgendaTab, CallForWhitepapersTab } from './tabs'
+import { SummaryTab, AgendaTab, CallForWhitepapersTab, RegistrationTab } from './tabs'
 
 const { Header, Content, Footer, Sider } = Layout
 
@@ -13,6 +13,7 @@ export const EventCard = ({ event, markdown }) => {
 
   const tabs = useMemo(() => [
     { title: 'Event Summary',        content: <SummaryTab event={ event } markdown={ markdown } />, },
+    { title: `Registration`,         content: <RegistrationTab url={ event.registrationURL } /> },
     { title: `Call for Whitepapers`, content: <CallForWhitepapersTab url={ event.whitepapersFormURL } /> },
     { title: `Agenda`,               content: <AgendaTab url={ event.agendaURL } /> },
   ], [])
